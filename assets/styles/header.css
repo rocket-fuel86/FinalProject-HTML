@@ -1,0 +1,42 @@
+.header-wrapper {
+    padding: 25px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-logo {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.header-logo_img {
+    width: 57px;
+}
+
+.header-logo_text {
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.header-list {
+    list-style: none;
+    display: flex;
+    gap: 48px;
+    align-items: center;
+}
+
+.header-list_item {
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.header-list_link, .header-logo_link {
+    color: black;
+    transition: 0.2s ease-in-out;
+}
+
+.header-list_link:hover, .header-logo_link:hover {
+    color: #F54748;
+}

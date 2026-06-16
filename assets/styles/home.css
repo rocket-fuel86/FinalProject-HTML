@@ -1,0 +1,45 @@
+.main {
+    background-color: #FDECEC;
+}
+
+.main {
+    padding: 61px;
+}
+
+.main-image {
+    width: 591px;
+}
+
+.main-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.main-info {
+    display: flex;
+    flex-direction: column;
+    gap: 38px;
+}
+
+.main-info_title {
+    font-size: 75px;
+    font-weight: bold;
+    line-height: 1.2;
+}
+
+.main-info_subtitle {
+    font-size: 20px;
+    font-weight: 500;
+    color: #787878;
+}
+
+.button {
+    width: fit-content;
+    display: inline-block;
+    padding: 20px 41px;
+    background-color: #F54748;
+    color: white;
+    text-decoration: none;
+    border-radius: 40px;
+}

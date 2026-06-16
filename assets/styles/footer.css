@@ -1,0 +1,62 @@
+.footer-wrapper {
+    padding: 78px 0;
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+}
+
+.footer-innerwrapper {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-card {
+    display: flex;
+    flex-direction: column;
+    gap: 21px;
+}
+
+.footer-card_items {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-copy {
+    margin-top: 8px;
+    color: #787878;
+    text-align: center;
+}
+
+.footer-card_title {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.footer-card_item {
+    font-size: 16px;
+    color: #787878;
+}
+
+.footer-card_link {
+    font-size: 16px;
+    color: #787878;
+}
+
+.footer-card_link:hover {
+    color: #F54748;
+}
+
+.footer-card_logo {
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.footer-card_img {
+    width: 79px;
+}
+
+.footer-card_marketing {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
