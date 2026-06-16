@@ -23,6 +23,43 @@ hr {
     color: #F54748;
 }
 
+input, textarea {
+    padding: 10px 30px;
+    color: grey;
+    font-size: 18px;
+    border: 2px solid grey;
+    border-radius: 5px;
+    box-shadow: none;
+    transition: 0.2s ease-in-out;
+}
+
+input:focus, textarea:focus {
+  color: #212529;
+  background-color: #fff;
+  border-color: lightcoral;
+  outline: 0;
+  box-shadow: 0 0 0 0.25rem rgb(255, 185, 185);
+}
+
 .highlight {
     color: #F54748;
+}
+
+.button {
+    width: fit-content;
+    display: inline-block;
+    padding: 20px 41px;
+    background-color: #F54748;
+    color: white;
+    text-decoration: none;
+    border-radius: 40px;
+    transition: 0.2s ease-in-out;
+    border: 1px solid #F54748;
+    cursor: pointer;
+}
+
+.button:hover {
+    color: #F54748;
+    background-color: transparent;
+    border: 1px solid #F54748;
 }

@@ -3,11 +3,152 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Restaurant Lorem</title>
+    <title>Contact us</title>
+    <link rel="icon" type="image/svg+xml" href="../images/logo.svg">
+    <link rel="stylesheet" href="../styles/base.css">
+    <link rel="stylesheet" href="../styles/header.css">
+    <link rel="stylesheet" href="../styles/contacts.css">
+    <link rel="stylesheet" href="../styles/footer.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css">
 </head>
 <body>
-    <header></header>
-    <main></main>
-    <footer></footer>
+    <header class="header">
+        <div class="container">
+            <div class="header-wrapper">
+                <div class="header-logo">
+                    <img class="header-logo_img" src="../images/logo.svg" alt="logo">
+                    <p class="header-logo_text">
+                        <a class="header-logo_link" href="../../index.html">Pizzateria</a>
+                    </p>
+                </div>
+                <ul class="header-list">
+                    <li class="header-list_item">
+                        <a class="header-list_link" href="menu.html">Menu</a>
+                    </li>
+                    <li class="header-list_item">
+                        <a class="header-list_link" href="delivery.html">Delivery</a>
+                    </li>
+                    <li class="header-list_item">
+                        <a class="header-list_link" href="about.html">About us</a>
+                    </li>
+                    <li class="header-list_item">
+                        <a class="header-list_link" href="contacts.html">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </header>
+    <main class="main">
+        <div class="container">
+            <form class="main-wrapper">
+                <div class="main-heading">
+                    <p class="main-heading_subtitle">Contact</p>
+                    <p class="main-heading_title">
+                        Reach out to us on social media<br>
+                        along with our location
+                    </p>
+                </div>
+                <div class="main-contacts" action="">
+                    <div class="main-info">
+                        <p class="main-info_title">Info</p>
+                        <div class="main-info_list">
+                            <div class="main-info_list__item">
+                                <img src="../images/icons/message.svg" alt="email">
+                                <p>pizzateria@gmail.com</p>
+                            </div>
+                            <div class="main-info_list__item">
+                                <img src="../images/icons/call.svg" alt="phone">
+                                <p>+1 234 567-8910</p>
+                            </div>
+
+                            <div class="main-info_list__item">
+                                <img src="../images/icons/location.svg" alt="location">
+                                <p>New York, NA, USA</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="main-form">
+                        <div class="main-form_info">
+                            <p class="main-form_title">Get in Touch</p>
+                            <p class="main-form_subtitle">
+                                Feel free to drop us a line below
+                            </p>
+                        </div>
+                        <div class="main-form_input">
+                            <div class="main-form_inputs">
+                                <input type="text" placeholder="Your name">
+                                <input type="email" placeholder="Your email">
+                            </div>
+                            <textarea placeholder="Type your message here..."></textarea>
+                        </div>
+                    </div>
+                </div>
+                <input class="button" type="submit" value="Send"></input>
+                <iframe class="hero" 
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d387193.05051518907!2d-74.30915526394074!3d40.69719336604221!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c24fa5d33f083b%3A0xc80b8f06e177fe62!2z0J3RjNGOLdCZ0L7RgNC6LCDQodC_0L7Qu9GD0YfQtdC90ZYg0KjRgtCw0YLQuCDQkNC80LXRgNC40LrQuA!5e0!3m2!1suk!2s!4v1781620463294!5m2!1suk!2s" 
+                        allowfullscreen="" 
+                        loading="lazy" 
+                        referrerpolicy="no-referrer-when-downgrade">
+                </iframe>
+            </form>
+        </div>
+    </main>
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-wrapper">
+                <div class="footer-innerwrapper">
+                    <div class="footer-card">
+                        <p class="footer-card_title">Our service</p>
+                        <div class="footer-card_items">
+                            <p class="footer-card_item">
+                                <a class="footer-card_link" href="menu.html">Menu</a>
+                            </p>
+                            <p class="footer-card_item">
+                                <a class="footer-card_link" href="delivery.html">Delivery</a>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="footer-card">
+                        <p class="footer-card_title">Assistance</p>
+                        <div class="footer-card_items">
+                            <p class="footer-card_item">
+                                <a class="footer-card_link" href="contacts.html">Contact us</a>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="footer-card">
+                        <p class="footer-card_title">Get in Touch</p>
+                        <div class="footer-card_items">
+                            <p class="footer-card_item">
+                                Have a question or feedback?<br>
+                                We're eager to hear from you
+                            </p>
+                        </div>
+                    </div>
+                    <div class="footer-card">
+                        <div class="footer-card_marketing">
+                            <img class="footer-card_img" src="../images/logo.svg" alt="logo">
+                            <p class="footer-card_logo">Pizzateria</p>
+                        </div>
+                        <div class="footer-card_items">
+                            <p class="footer-card_item">
+                                Our mission is to satisfy your hunger with<br>
+                                tasty food, delivered quickly and at no charge
+                            </p>
+                        </div>
+                        <div class="footer-card_icons">
+                            <h1 class="bi bi-instagram"></h1>
+                            <h1 class="bi bi-facebook"></h1>
+                            <h1 class="bi bi-twitter"></h1>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <hr>
+                    <p class="footer-copy">&copy; 2026 rocket-fuel86. All rights reserved</p>
+                </div>
+            </div>
+        </div>
+    </footer>
 </body>
 </html>

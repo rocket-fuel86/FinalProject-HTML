@@ -1,0 +1,43 @@
+.main {
+    margin: 78px 0;
+}
+
+.main-wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 48px;
+}
+
+.main-heading {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.main-heading_subtitle {
+    font-size: 18px;
+    font-weight: bold;
+    letter-spacing: 20%;
+    text-transform: uppercase;
+    color: #F54748;
+    text-align: center;
+}
+
+.main-heading_title {
+    font-size: 48px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.main-description {
+    font-size: 20px;
+    font-weight: 500;
+    color: #787878;
+    text-align: center;
+}
+
+.hero {
+    height: 315px;
+    border-radius: 20px;
+    object-fit: cover;
+}

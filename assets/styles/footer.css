@@ -60,3 +60,9 @@
     align-items: center;
     gap: 5px;
 }
+
+.footer-card_icons {
+    display: flex;
+    gap: 33px;
+    color: #F54748;
+}
