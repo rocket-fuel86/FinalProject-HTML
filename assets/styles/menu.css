@@ -66,10 +66,13 @@
 }
 
 .main-menu {
+    max-width: 1088px;
+    margin: 0 auto;
     padding: 70px 0;
     display: flex;
+    justify-content: center;
     flex-wrap: wrap;
-    justify-content: space-evenly;
+    column-gap: 24px;
     row-gap: 57px;
 }
 

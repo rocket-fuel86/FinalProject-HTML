@@ -1,0 +1,37 @@
+.main {
+    margin: 78px 0;
+}
+
+.main-wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 48px;
+}
+
+.button {
+    padding: 11px 14px;
+}
+
+.main-info {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.main-info_text {
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+}
+
+.main-info_title {
+    font-size: 36px;
+    font-weight: bold;
+}
+
+.main-info_img {
+    width: 748px;
+    height: 333px;
+    object-fit: cover;
+    border-radius: 10px;
+}
