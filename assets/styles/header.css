@@ -1,5 +1,5 @@
 .header-wrapper {
-    padding: 25px 0;
+    padding: 25px 10px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -45,10 +45,10 @@
     .header-wrapper {
         flex-direction: column;
         gap: 20px;
-        padding: 10px;
     }
     .header-list {
-        flex-direction: column; /* Меню перестраивается в колонку на планшетах и мобилках */
+        /* flex-direction: column; */
+        flex-wrap: wrap;
         gap: 20px;
         padding: 0;
     }

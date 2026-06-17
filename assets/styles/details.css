@@ -103,4 +103,10 @@
     .main-product_order {
         justify-content: center;
     }
+    .main-product_rating {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0 auto;
+    }
 }
