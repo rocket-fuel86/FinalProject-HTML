@@ -69,7 +69,7 @@
     padding: 70px 0;
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: space-evenly;
     row-gap: 57px;
 }
 
@@ -106,6 +106,25 @@
     border: none;
 }
 
+.back-button {
+    width: fit-content;
+    display: inline-block;
+    padding: 20px 41px;
+    background-color: #F54748;
+    color: white;
+    text-decoration: none;
+    border-radius: 40px;
+    transition: 0.2s ease-in-out;
+    border: 1px solid #F54748;
+    cursor: pointer;
+}
+
+.back-button:hover {
+    color: #F54748;
+    background-color: transparent;
+    border: 1px solid #F54748;
+}
+
 .menu-item_title {
     font-size: 24px;
     font-weight: bold;
@@ -125,4 +144,9 @@
     display: flex;
     gap: 9px;
     color: #FDC55E;
+}
+
+.main-backlink {
+    color: #F54748;
+    text-decoration: underline;
 }
