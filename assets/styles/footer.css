@@ -67,6 +67,10 @@
     color: #F54748;
 }
 
+.footer-card_social {
+    color: #F54748;
+}
+
 @media (max-width: 768px) {
     .footer-wrapper {
         padding: 45px 0;
@@ -76,5 +80,10 @@
         flex-wrap: wrap;
         justify-content: center;
         gap: 50px;
+    }
+    .footer-card:nth-child(4) {
+        display: flex;
+        align-items: center;
+        text-align: center;
     }
 }
