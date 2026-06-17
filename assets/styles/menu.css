@@ -165,4 +165,10 @@
         flex-wrap: wrap;
         justify-content: space-evenly;
     }
+    .main-heading_subtitle {
+        font-size: 15px;
+    }
+    .main-heading_title {
+        font-size: 40px;
+    }
 }

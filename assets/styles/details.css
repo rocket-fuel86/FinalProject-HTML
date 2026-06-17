@@ -89,17 +89,18 @@
     color: #FDC55E;
 }
 
-@media (min-width: 402px) {
-    .main-product {
-        flex-direction: column;
-    }
-}
-
 @media (max-width: 768px) {
     .main {
         margin: 20px 0;
     }
     .main-wrapper {
         align-items: center;
+    }
+    .main-product {
+        flex-direction: column;
+        text-align: center;
+    }
+    .main-product_order {
+        justify-content: center;
     }
 }

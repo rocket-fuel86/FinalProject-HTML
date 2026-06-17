@@ -41,3 +41,25 @@
     border-radius: 20px;
     object-fit: cover;
 }
+
+@media (max-width: 768px) {
+    .main {
+        margin: 20px 0;
+    }
+    .main-wrapper {
+        gap: 32px;
+    }
+    .main-heading_title {
+        font-size: 32px;
+    }
+    .main-heading_subtitle {
+        font-size: 15px;
+    }
+    .main-description {
+        font-size: 16px;
+    }
+    .hero {
+        height: 200px;
+        width: 100%;
+    }
+}

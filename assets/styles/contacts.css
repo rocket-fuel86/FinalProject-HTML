@@ -112,12 +112,6 @@ textarea {
     padding: 20px 30px;
 }
 
-@media (min-width: 402px) {
-    .main-contacts {
-        
-    }
-}
-
 @media (max-width: 768px) {
     .main {
         margin: 20px 0;
@@ -125,5 +119,25 @@ textarea {
     .main-contacts {
         flex-direction: column;
         gap: 50px;
+    }
+    .main-info {
+        padding: 30px 20px;
+        width: 100%;
+    }
+    .main-form {
+        width: 100%;
+    }
+    .main-form_inputs {
+        flex-direction: column;
+        gap: 15px;
+    }
+    .main-heading_title {
+        font-size: 32px;
+    }
+    .main-form_title {
+        font-size: 32px;
+    }
+    .main-form_subtitle {
+        font-size: 15px;
     }
 }
