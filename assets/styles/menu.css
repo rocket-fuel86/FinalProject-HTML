@@ -153,3 +153,10 @@
     color: #F54748;
     text-decoration: underline;
 }
+
+@media (max-width: 768px) {
+    .main-select {
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+    }
+}

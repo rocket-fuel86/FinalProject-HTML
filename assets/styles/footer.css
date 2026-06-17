@@ -66,3 +66,15 @@
     gap: 33px;
     color: #F54748;
 }
+
+@media (max-width: 768px) {
+    .footer-wrapper {
+        padding: 45px 0;
+    }
+    .footer-innerwrapper {
+        align-items: center;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 50px;
+    }
+}

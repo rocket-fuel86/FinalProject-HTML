@@ -111,3 +111,10 @@ textarea {
     height: 128px;
     padding: 20px 30px;
 }
+
+@media (max-width: 768px) {
+    .main-contacts {
+        flex-direction: column;
+        gap: 50px;
+    }
+}

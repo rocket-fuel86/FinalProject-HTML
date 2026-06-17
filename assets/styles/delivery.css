@@ -35,3 +35,16 @@
     object-fit: cover;
     border-radius: 10px;
 }
+
+@media (max-width: 768px) {
+    .main {
+        margin: 40px 0;
+    }
+    .main-info {
+        flex-direction: column;
+        gap: 40px;
+    }
+    .main-info_img {
+        width: fit-content;
+    }
+}

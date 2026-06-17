@@ -33,3 +33,20 @@
     font-weight: 500;
     color: #787878;
 }
+
+@media (max-width: 768px) {
+    .main-wrapper {
+        flex-direction: column;
+        gap: 30px;
+        align-items: center;
+    }
+    .button {
+        align-self: center;
+    }
+    .main-info_title {
+        font-size: 55px;
+    }
+    .main-info_subtitle {
+        font-size: 15px;
+    }
+}
