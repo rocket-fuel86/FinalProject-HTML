@@ -64,6 +64,20 @@ input:focus, textarea:focus {
     border: 1px solid #F54748;
 }
 
+.main-heading_title,
+.main-heading_subtitle,
+.main-description,
+.main-form_info {
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+}
+
+.main-description {
+    max-width: 650px;
+}
+
 @media (max-width: 768px) {
     .container {
         padding: 40px;
