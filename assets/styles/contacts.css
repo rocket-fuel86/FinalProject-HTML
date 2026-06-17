@@ -112,7 +112,16 @@ textarea {
     padding: 20px 30px;
 }
 
+@media (min-width: 402px) {
+    .main-contacts {
+        
+    }
+}
+
 @media (max-width: 768px) {
+    .main {
+        margin: 20px 0;
+    }
     .main-contacts {
         flex-direction: column;
         gap: 50px;

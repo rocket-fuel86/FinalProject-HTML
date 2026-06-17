@@ -34,6 +34,12 @@
     color: #787878;
 }
 
+@media (min-width: 402px) {
+    .main-image {
+        width: 90%;
+    }
+}
+
 @media (max-width: 768px) {
     .main-wrapper {
         flex-direction: column;

@@ -24,6 +24,10 @@
     gap: 18px;
 }
 
+.main-info_desc {
+    color: #787878;
+}
+
 .main-info_title {
     font-size: 36px;
     font-weight: bold;
@@ -38,13 +42,13 @@
 
 @media (max-width: 768px) {
     .main {
-        margin: 40px 0;
+        margin: 20px 0;
     }
     .main-info {
         flex-direction: column;
         gap: 40px;
     }
     .main-info_img {
-        width: fit-content;
+        width: 100%;
     }
 }
